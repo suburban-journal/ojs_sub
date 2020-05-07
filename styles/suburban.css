@@ -1,0 +1,307 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+td, th {
+	border-style:solid;
+	border-width:1px;
+}
+table {
+	border-collapse:collapse;
+}
+li {
+	display:block;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white; 
+	color: #111;
+	font-family: calibri,sans-serif;
+	-epub-hyphens:auto;
+}
+p.Kein-Absatzformat {
+	-epub-ruby-position:over;
+	 
+}
+p.x01-Autoren {
+	 font-weight:bold;
+}
+p.x01-Titel {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:Calibri, sans-serif;
+	 font-size: 2.0em;
+	 font-weight: bold;
+}
+li.x02--berschrift1 {
+	-epub-ruby-position:over;
+	color:#000000;
+	 font-size: 1.5em;
+	 margin-top:24px;
+}
+li.x02--berschrift2 {
+	-epub-ruby-position:over;
+	color:#000000;
+	margin-top:18px;
+	padding-top: 0.5em;
+	font-family: calibri;
+	font-weight: normal;
+	color: black;
+	font-size: 1.25em;
+}
+
+
+p.x02--berschrift1-ohneNum {
+	-epub-ruby-position:over;
+	color:#000000;
+	 font-size: 1.5em;
+	 margin-top:24px;
+	
+}
+
+
+li.x02--berschrift2-ohneNum {
+	-epub-ruby-position:over;
+	color:#000000;
+	margin-top:18px;
+	padding-top: 0.5em;
+	font-family: calibri;
+	font-weight: normal;
+	color: black;
+	font-size: 1.25em;
+}
+
+p.x02--berschrift1-ohneNum {
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:Georgia, serif;
+	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.364;
+	margin-bottom:15px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+
+p.x07-Literatur {
+	font-family: calibri,sans-serif;
+	 margin-bottom:8px;
+	margin-top: 8px;
+	 
+}
+p.x07-Endnoten {
+	-epub-ruby-position:over;
+	 margin-top: 8px;
+}
+p.x03-Fliesstext {
+	-epub-ruby-position:over;
+	margin-bottom:8px;
+	margin-top: 8px;
+	 
+}
+
+
+li.x03-Aufzaehlung {
+	-epub-ruby-position:over;
+	margin-bottom:8px;
+	margin-top: 8px;
+	margin-left:10px;
+	text-indent: -10px;
+	 
+}
+
+li.x03-Aufzaehlung {
+	-epub-ruby-position:over;
+	margin-bottom:8px;
+	margin-top: 8px;
+	margin-left:40px;
+	 
+} 
+p.x03-Zitate-lang {
+	-epub-ruby-position:over;
+	color:#000000;
+	 
+	line-height:1.164;
+	margin-bottom:12px;
+	margin-top: 12px;
+	margin-left:40px;
+	 
+	 
+	text-decoration:none;
+	text-indent:0px;
+}
+p.x03-Fliesstext1 {
+	-epub-ruby-position:over;
+	margin-bottom:8px;
+	margin-top: 8px;
+	 
+}
+
+p.x04-Tabellentext {
+	font-family: calibri,sans-serif;
+	font-size:smaller;
+ }
+	 
+	 p.x04-Tabellenkopf {
+	font-family: calibri,sans-serif;
+	font-size: small;
+ 
+}
+p.x06-Abstract-en {
+	-epub-ruby-position:over;
+ 
+}
+p.x06-Abstract-de {
+	-epub-ruby-position:over;
+
+}
+p.x08-Beitragstyp {
+	-epub-ruby-position:over;
+	color:#000000;
+	 
+} 
+
+p.x03-Quelle-Langzitat-extra {
+	-epub-ruby-position:over;
+	color:#000000;
+ 	font-size:11px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.364;
+	margin-bottom:8px;
+	margin-left:40px;
+	margin-right:14px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+ 
+
+
+p.x08-Literatur--berschrift {
+	-epub-ruby-position:over;
+	color:#000000;
+	 font-size: 1.5em;
+	 margin-top:24px;
+ margin-bottom:8		px;
+}
+p.x07-Autoren {
+	-epub-ruby-position:over;
+	color:#000000;
+	 
+}
+p.x01-Untertitel {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-size: 1.4em;
+ 	 
+}
+
+
+p.x05-Tabellenfu-note {
+	font-size:smaller;
+}
+
+
+span.x03-Kursiv {
+	font-style:italic;
+	font-weight:normal;
+}
+
+
+ 
+
+span.x03-Fettkursiv {
+	font-style:italic;
+	font-weight:bold;
+}
+
+span.x03-Fett {
+	font-style:normal;
+	font-weight:bold;
+}
+
+span.x08-Endnote {
+	color:#000000;
+	 
+}
+p.para-style-override-1 {
+	text-align:justify;
+}
+p.para-style-override-2 {
+	font-family:Calibri, sans-serif;
+	 
+}
+p.para-style-override-3 {
+	text-align:left;
+}
+span.char-style-override-1 {
+	font-family:Calibri, sans-serif;
+	 font-style:italic;
+}
+span.char-style-override-2 {
+	font-family:Calibri, sans-serif;
+	 
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-3 {
+	display:inline-block;
+	text-indent:0;
+	margin-right:4px;
+	
+}
+span.char-style-override-4 {
+	
+	font-weight:normal;
+}
+span.char-style-override-5 {
+	display:inline-block;
+	text-indent:0;
+	margin-right:4px;
+	 
+}
+span.char-style-override-6 {
+	font-style:normal;
+	font-weight:normal;
+}
+span.char-style-override-7 {
+	font-family: Calibri, sans-serif;
+	font-style:normal;
+	font-weight:normal;
+}
+
+span.Logo {
+	letter-spacing: 0.3em;
+	font-weight:normal;
+}
+
+span.Logo-Fett {
+	letter-spacing: 0.3em;
+	font-weight:bold;
+}
+
+div.frame-1 {
+	height:188px;
+	width:354px;
+}
+img.frame-2 {
+	height:19px;
+	width:56px;
+}
+div.frame-3 {
+	margin:0px auto 0px auto;
+	text-align:center;
+}

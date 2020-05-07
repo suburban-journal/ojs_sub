@@ -1,0 +1,749 @@
+html,body,div,h1,h2,h3,h4,h5,h6,dl,dt,dd,p,blockquote,pre,form,fieldset,table,th,td {
+background-color:#red;
+margin:2;
+padding:0;
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,/* dl,dt,dd,ol,ul,li,*/
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+background:blue;
+border:0;
+font-size:200%;
+outline:10;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+
+body {
+line-height:10;
+background-color:#000000;
+width:10%;
+}
+
+ol {
+list-style:decimal;
+}
+
+ul {
+list-style:disc;
+}
+
+blockquote,q {
+quotes:none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+content:none;
+}
+
+:focus {
+outline:0;
+}
+
+ins {
+text-decoration:none;
+}
+
+del {
+text-decoration:line-through;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+a {
+color:#222;
+line-height:140%;
+text-decoration:underline;
+}
+
+a:link {
+color:#222;
+line-height:140%;
+}
+
+a:active {
+font-weight:700;
+line-height:140%;
+}
+
+a:visited {
+color:#696969;
+line-height:140%;
+}
+
+a:hover {
+background-color:transparent;
+color:#f93;
+line-height:140%;
+}
+
+#header {
+width:1000px;
+margin:0 auto;
+padding:0;
+}
+
+body > #container > #body {
+background-color:#fff;
+width:1000px;
+margin:0 auto;
+}
+
+#content {
+background-color:#fff;
+border-top:2px solid #f93;
+color:#222;
+font-family:serif;
+}
+
+div.customfooter {
+border-top:2px solid #f93;
+color:#444;
+font-family:serif;
+font-size:.75em;
+text-align:center;
+margin:0 auto;
+padding:.3em 0 0;
+}
+
+#main {
+background-color:#fff;
+display:inline;
+float:left;
+margin-left:auto;
+margin-right:auto;
+width:665px;
+}
+
+#main h2 {
+color:#222;
+font-family:serif;
+font-size:4.4em;
+font-weight:400;
+margin:0;
+}
+
+#main > #content > h3 {
+color:#222;
+font-family:serif;
+font-size:1.6em;
+}
+
+#main > #content > div > h3 {
+color:#696969;
+}
+
+#headerTitle {
+font-family:sans-serif;
+width:100%;
+margin:0 auto;
+padding:0;
+}
+
+#headerTitle > h1 > img {
+margin-left:-100px;
+font-family:sans-serif;
+}
+
+#navbar {
+border-bottom:.3em solid #f93;
+color:#f93;
+font-family:sans-serif;
+font-size:.75em;
+line-height:1;
+margin-top:0;
+padding-top:0;
+text-align:left;
+}
+
+#navbar ul.menu {
+width:100%;
+padding:0;
+}
+
+#navbar a {
+font-size:1em;
+font-weight:700;
+letter-spacing:normal;
+}
+
+#navbar a:link {
+color:#222;
+text-decoration:underline;
+text-transform:none;
+}
+
+#navbar a:active {
+color:#111;
+text-decoration:underline;
+text-transform:none;
+}
+
+#navbar a:visited {
+color:#696969;
+text-decoration:underline;
+text-transform:none;
+}
+
+#navbar a:hover {
+color:#f93;
+text-decoration:underline;
+text-transform:none;
+}
+
+#breadcrumb {
+font-family:serif;
+font-size:.8em;
+}
+
+#content > h4 {
+font-family:serif;
+font-size:1.4em;
+}
+
+div.separator {
+border-bottom:1px solid #f93;
+font-size:.5em;
+margin-bottom:.25em;
+margin-top:1em;
+width:100%;
+padding:0;
+}
+
+body #container #body #main #content {
+font-size:100%;
+line-height:140%;
+}
+
+.tocSectionTitle {
+color:#222;
+font-family:sans-serif;
+}
+
+.tocTitle {
+color:#222;
+font-family:serif;
+}
+
+.tocAuthors {
+color:#444;
+font-family:serif;
+font-style:normal;
+padding-bottom:.7em;
+}
+
+td .tocAuthors {
+margin-bottom:30px;
+}
+
+#rightSidebar {
+border-left:2px solid #f93;
+float:right;
+font-family:serif;
+margin-left:130px;
+margin-right:0;
+margin-top:3em;
+overflow:auto;
+width:160px;
+padding:0 0 0 .6em;
+}
+
+#developedBy {
+font-size:1em;
+letter-spacing:0;
+text-transform:none;
+}
+
+#sidebar div.block {
+font-size:1em;
+letter-spacing:0;
+padding-bottom:1.5em;
+text-transform:none;
+}
+
+#sidebar div.block span.blockTitle {
+display:block;
+font-size:1em;
+letter-spacing:0;
+text-transform:none;
+padding:.5em 0;
+}
+
+#sidebarLanguageToggle div.block > span.blockTitle {
+background-color:#fff;
+display:block;
+font-size:1em;
+letter-spacing:0;
+text-transform:none;
+}
+
+#sidebar div.block span.blockSubtitle {
+display:block;
+font-size:1em;
+letter-spacing:0;
+text-transform:none;
+padding:0;
+}
+
+#articleFontSize {
+display:none;
+}
+
+#articleTitle h3 {
+line-height:140%;
+}
+
+.titelei h1 {
+font-family:serif;
+font-size:1.5em;
+line-height:1.15;
+margin-bottom:0;
+}
+
+#main #content div.titelei h2 {
+font-family:serif;
+font-size:1.3em;
+line-height:1.15;
+margin:0 0 1em;
+}
+
+div.buch {
+border-bottom:1px solid #f93;
+border-top:1px solid #f93;
+font-size:.8em;
+margin-bottom:2em;
+margin-top:2em;
+}
+
+div.abstract * {
+color:#444;
+font-family:serif;
+font-size:.8em;
+margin:1em auto;
+}
+
+div.urheberin {
+border-top:1px solid #f93;
+color:#444;
+font-size:.8em;
+margin-bottom:2em;
+margin-top:2em;
+}
+
+div.haupttext ul {
+font-family:serif;
+list-style-position:outside;
+list-style-type:square;
+padding-left:1em;
+margin:1em 0;
+}
+
+div.haupttext ol {
+font-family:serif;
+list-style-position:outside;
+list-style-type:decimal;
+padding-left:2em;
+margin:1em 0;
+}
+
+div.bibliografieeintrag {
+margin-bottom:1em;
+margin-left:0;
+margin-top:1em;
+text-indent:0;
+}
+
+div.haupttext div.bibliografie p {
+margin-bottom:1em;
+margin-left:0;
+text-indent:0;
+}
+
+div.haupttext div.vorzitat {
+margin-right:0;
+margin-left:auto;
+width:40%;
+font-style:italic;
+padding:.5em;
+}
+
+div.hinweis {
+font-size:1em;
+margin-bottom:0;
+margin-left:0;
+margin-top:2em;
+text-indent:0;
+font-style:italic;
+}
+
+div.anmerkungen {
+font-size:.8em;
+margin-bottom:0;
+margin-left:1em;
+margin-top:0;
+text-indent:-1em;
+}
+
+div.literatur {
+font-size:.8em;
+margin-top:0;
+margin-bottom:0;
+margin-left:1em;
+text-indent:-1em;
+}
+
+div.gedicht {
+text-align:left;
+font-size:.8em;
+}
+
+div.gedicht .caption {
+background-color:#ffeeca;
+font-size:.8em;
+text-align:center;
+margin:1em 0 0;
+}
+
+div.floatright {
+border:1px solid #f93;
+float:right;
+width:30%;
+padding:.5em;
+}
+
+div.floatleft {
+border:1px solid #f93;
+float:left;
+margin-right:.5em;
+max-width:30%;
+padding:.5em;
+}
+
+div.bild {
+text-align:center;
+}
+
+div.bild img {
+width:100%;
+margin:0 auto;
+}
+
+div.bild .caption {
+background-color:#ffeeca;
+font-size:.8em;
+text-align:center;
+margin:0;
+}
+
+div.nofloat {
+float:none;
+width:70%;
+margin:1em auto;
+}
+
+div.nofloat95 {
+float:none;
+max-width:100%;
+margin:1em auto;
+}
+
+div.urheberin .bild {
+float:left;
+max-width:30%;
+margin:0 .5em 0 auto;
+padding:0 .5em .5em;
+}
+
+div.floatright50 {
+border:1px solid #f93;
+float:right;
+max-width:50%;
+margin:1em;
+padding:1em;
+}
+
+div.floatright50 h2 {
+color:#ff0;
+font-family:serif;
+font-size:1em;
+}
+
+div.floatright50 h3 {
+font-size:1em;
+margin-bottom:0;
+}
+
+.floatright50 ul {
+font-family:sans-serif;
+margin-top:0;
+}
+
+div.float90 {
+border:1px solid #f93;
+width:90%;
+margin:1em;
+padding:1em;
+}
+
+div.linksammlung {
+color:#bb3;
+}
+
+div.linksammlung .gliederung {
+background-color:#31c;
+}
+
+div.linksammlung div.linkeintrag {
+background-color:#ff0;
+color:#b13;
+margin-top:1.2em;
+}
+
+div.linkeintrag .titel {
+background-color:#aaa;
+color:#000;
+font-weight:700;
+}
+
+div.linkeintrag .beschreibung {
+background-color:#ff0;
+color:#19d;
+}
+
+div.linkeintrag .link {
+background-color:#eee;
+color:#384;
+font-style:italic;
+}
+
+#content div.interview > h2 {
+font-size:1.2em;
+font-family:serif;
+}
+
+#content div.interview p + h2 {
+margin-bottom:.5em;
+margin-top:1em;
+}
+
+div.interview .frage {
+font-style:italic;
+margin:1em 0;
+}
+
+div.interview .antwort p {
+margin-top:.5em;
+text-indent:0;
+}
+
+div.urn {
+color:#222;
+font-family:sans-serif;
+font-size:.8em;
+text-align:right;
+margin:1em auto;
+}
+
+div.licencenotice {
+border-bottom:1px solid #f93;
+border-top:1px solid #f93;
+color:#444;
+font-family:serif;
+font-size:.8em;
+margin:2em auto 1em;
+}
+
+#content table.listing {
+font-size:.7em;
+}
+
+input.button {
+background-color:#ddd;
+color:#000;
+font-family:serif;
+font-size:1em;
+padding-left:.5em;
+padding-right:.5em;
+}
+
+h1 {
+background-color:#ddd;
+color:#000;
+font-family:serif;
+font-weight:700;
+}
+
+input.textField,select.selectMenu,textarea.textArea,input.uploadField {
+background-color:#ddd;
+color:#000;
+font-family:serif;
+border-top:2px solid #666;
+border-left:2px solid #666;
+border-bottom:2px solid #E8E8E1;
+border-right:2px solid #E8E8E1;
+font-size:1em;
+}
+
+p.bibfeld {
+font-family:sans-serif;
+font-size:1.2em;
+font-weight:700;
+margin:1em 0 .5em;
+}
+
+p.biblio-eintrag {
+margin-left:1em;
+text-indent:-1em;
+}
+
+p.biblio-zeitschrift + p.biblio-zeitschrift {
+margin-top:.5em;
+}
+
+p.navlinkrechts {
+font-size:.5em;
+padding-bottom:2em;
+text-align:right;
+}
+
+div.rtBlock li {
+border-top:1px solid #f93;
+font-family:serif;
+}
+
+span.rtSubtitle {
+font-family:serif;
+text-transform:none;
+}
+
+a.rtAction {
+font-family:serif;
+text-decoration:underline;
+text-transform:none;
+}
+
+#main h5 {
+font-family:serif;
+font-size:1em;
+font-weight:400;
+width:100%;
+margin:1em auto .5em;
+padding:0;
+}
+
+#main h6 {
+font-family:serif;
+font-size:1em;
+font-weight:400;
+margin-bottom:.5em;
+margin-top:1em;
+padding:0;
+}
+
+p.beitragen {
+color:#222;
+font-family:serif;
+margin:1em 0;
+}
+
+ul.beitragen {
+color:#222;
+font-family:serif;
+list-style-position:outside;
+list-style-type:square;
+padding-left:1em;
+margin:1em 0;
+}
+
+h2.beitragen {
+font-size:1.2em;
+font-weight:700;
+}
+
+p.beitragen-h2 {
+font-size:1.2em;
+font-weight:700;
+margin-bottom:1em;
+}
+
+p.cc-h {
+font-size:1.2em;
+font-weight:700;
+margin:2em 0 1em;
+}
+
+p.cc-c {
+border:1px solid #f93;
+margin:1.5em;
+padding:.5em;
+}
+
+#issueCoverDescription {
+font-size:.8em;
+}
+
+html > body {
+background-color:#fff;
+margin:0 auto;
+}
+
+html > body > div.haupttext > h2 {
+color:#222;
+font-family:serif;
+font-size:1.2em;
+font-weight:400;
+margin-bottom:.5em;
+margin-left:335px;
+width:665px;
+}
+
+html > body > div.haupttext p + h2 {
+margin-left:335px;
+margin-top:1em;
+width:665px;
+}
+
+html > body > div.urheberin > p {
+font-family:serif;
+font-size:100%;
+line-height:171%;
+}
+
+html > body > div.buch > p {
+color:#222;
+font-family:serif;
+font-size:100%;
+line-height:171%;
+}
+
+html > body > div.anmerkungen {
+font-size:.8em;
+margin-bottom:0;
+margin-left:335px;
+margin-top:0;
+text-indent:-1em;
+width:665px;
+}
+
+html > body > div.titelei h1 {
+font-family:serif;
+font-size:1.5em;
+line-height:1.15;
+margin-bottom:0;
+margin-left:335px;
+width:665px;
+}
+
+html > body > div.titelei h2 {
+font-family:serif;
+font-size:1.3em;
+line-height:1.15;
+width:665px;
+margin:0 0 1em 335px;
+}
+
+ 
